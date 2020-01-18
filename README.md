@@ -1,6 +1,6 @@
 # BDDRestExample
 
-Simple API tests using Cucumber, RestAssured and Frameworkium. for https://reqres.in api.
+Simple API tests using Cucumber, RestAssured and Frameworkium for https://reqres.in
 
 
 ###### Perequisities
