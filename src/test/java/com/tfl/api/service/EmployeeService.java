@@ -1,30 +1,44 @@
 package com.tfl.api.service;
 
-
-import com.tfl.api.model.Data;
 import io.restassured.RestAssured;
-import io.restassured.common.mapper.TypeRef;
+import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import static io.restassured.RestAssured.given;
 
-import static io.restassured.path.json.JsonPath.from;
 
 public class EmployeeService {
 
-    private static final String URL = "https://reqres.in";
+    public EmployeeService() {
+        RestAssured request = new RestAssured();
+        request.baseURI = "https://reqres.in";
+    }
 
-    public String getEmployeeById(Integer id) {
-        String json = RestAssured.given()
+    public JsonPath getEmployeeById(Integer id) {
+        JsonPath jsonResponse = given()
                 .accept("application/json")
                 .contentType("application/json")
                 .when()
-                .get(URL + "/api/users/{id}")
+                .get("/api/users/" + id)
                 .then()
-                .statusCode(200).extract().asString();
+                .statusCode(200).extract().jsonPath();
+        return jsonResponse;
+    }
 
-        return json;
+    public JsonPath createEmployee(String requestBody) {
+        JsonPath jsonResponse = given()
+                .urlEncodingEnabled(true)
+                .body(requestBody)
+                .header("Accept", ContentType.JSON.getAcceptHeader())
+                .post("/api/users")
+                .then()
+                .statusCode(201).extract().jsonPath();
+        return jsonResponse;
+    }
+
+    public Integer deleteEmployeeById(Integer id) {
+        return given()
+                .header("Content-Type", "application/json")
+                .delete("/api/users/" + id).getStatusCode();
+    }
 }

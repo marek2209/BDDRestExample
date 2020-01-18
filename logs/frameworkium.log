@@ -127,3 +127,140 @@
 2020-01-18 12:44:24.401 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get all bike points contains Evesham Street, Avondale
 2020-01-18 12:44:31.994 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Get all bike points contains Evesham Street, Avondale
 2020-01-18 12:44:31.994 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Get all bike points contains River Street , Clerkenwell
+2020-01-18 13:15:33.771 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:15:34.228 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Get user by specific id
+2020-01-18 13:15:46.974 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:15:47.487 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Get user by specific id
+2020-01-18 13:20:24.622 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:20:26.486 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Get user by specific id
+2020-01-18 13:21:07.854 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:21:09.733 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Get user by specific id
+2020-01-18 13:21:23.568 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:23:06.653 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:23:08.206 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Get user by specific id
+2020-01-18 13:23:51.525 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:24:08.532 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:24:11.772 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get user by specific id
+2020-01-18 13:25:18.639 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:25:18.639 [TestNG-PoolService-1] INFO  com.APITestRunner - START Get user by specific id
+2020-01-18 13:25:21.682 [TestNG-PoolService-1] INFO  com.APITestRunner - PASS  Get user by specific id
+2020-01-18 13:25:21.682 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get user by specific id
+2020-01-18 13:36:15.580 [TestNG-PoolService-1] INFO  com.APITestRunner - START Get employee by specific id
+2020-01-18 13:36:15.580 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get employee by specific id
+2020-01-18 13:36:42.225 [TestNG-PoolService-1] INFO  com.APITestRunner - PASS  Get employee by specific id
+2020-01-18 13:36:42.225 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get employee by specific id
+2020-01-18 13:42:42.660 [TestNG-PoolService-1] INFO  com.APITestRunner - START Get employee by specific id
+2020-01-18 13:42:42.660 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get employee by specific id
+2020-01-18 13:42:51.608 [TestNG-PoolService-1] INFO  com.APITestRunner - PASS  Get employee by specific id
+2020-01-18 13:42:51.608 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get employee by specific id
+2020-01-18 13:43:39.848 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 13:44:11.299 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:28:59.261 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:29:17.117 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:29:55.931 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:29:58.649 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:31:38.552 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:31:41.267 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:33:07.636 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:34:16.582 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:35:43.160 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:35:44.387 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:36:17.250 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:38:23.114 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:44:27.866 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:44:42.061 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:47:14.025 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:47:57.471 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:54:27.262 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:54:30.108 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:55:38.957 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:56:14.532 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Create employee
+2020-01-18 14:58:03.760 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:58:06.669 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Create employee
+2020-01-18 14:58:31.096 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:58:33.825 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 14:59:33.472 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 14:59:36.398 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 15:11:35.944 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:11:47.602 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Create employee
+2020-01-18 15:14:15.814 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:14:19.506 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 15:15:07.177 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:15:24.672 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 15:50:33.085 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:50:33.085 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:50:33.085 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:50:33.602 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:50:33.602 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:51:13.522 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:51:13.522 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:51:13.522 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:51:14.058 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:51:14.058 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:51:59.344 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:51:59.344 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:51:59.344 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:51:59.875 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:51:59.875 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:53:03.613 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:53:03.613 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:53:03.613 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:53:04.082 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:53:04.082 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:53:06.867 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Create employee
+2020-01-18 15:53:24.011 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:53:24.011 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:53:24.011 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:53:24.540 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:53:24.540 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:56:16.394 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:56:16.394 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:56:16.394 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:56:16.924 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:56:16.924 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:56:41.283 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 15:57:08.733 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:57:08.733 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:57:08.733 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:57:09.270 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:57:09.270 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:57:12.959 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 15:57:39.792 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:57:39.792 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:57:39.792 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:57:40.320 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:57:40.320 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:58:02.916 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 15:58:08.707 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:58:08.707 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:58:08.707 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:58:09.236 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:58:09.236 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 15:58:34.516 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 15:58:55.463 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 15:58:55.463 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 15:58:55.463 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 15:58:55.984 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 15:58:55.984 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 16:01:01.436 [TestNG-PoolService-2] INFO  com.APITestRunner - START Remove employee
+2020-01-18 16:01:01.436 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 16:01:01.436 [TestNG-PoolService-1] INFO  com.APITestRunner - START Update employee
+2020-01-18 16:01:01.982 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 16:01:01.982 [TestNG-PoolService-1] ERROR com.APITestRunner - FAIL  Update employee
+2020-01-18 16:20:13.067 [TestNG-PoolService-0] INFO  com.APITestRunner - START Remove employee
+2020-01-18 16:20:15.906 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Remove employee
+2020-01-18 16:20:28.061 [TestNG-PoolService-0] INFO  com.APITestRunner - START Remove employee
+2020-01-18 16:20:30.773 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Remove employee
+2020-01-18 16:20:46.468 [TestNG-PoolService-0] INFO  com.APITestRunner - START Remove employee
+2020-01-18 16:21:51.198 [TestNG-PoolService-0] INFO  com.APITestRunner - START Remove employee
+2020-01-18 16:21:53.972 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Remove employee
+2020-01-18 16:22:07.063 [TestNG-PoolService-0] INFO  com.APITestRunner - START Remove employee
+2020-01-18 16:22:09.707 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Remove employee
+2020-01-18 16:22:30.904 [TestNG-PoolService-3] INFO  com.APITestRunner - START Remove employee
+2020-01-18 16:22:30.904 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get employees by specific id
+2020-01-18 16:22:30.904 [TestNG-PoolService-1] INFO  com.APITestRunner - START Get employees by specific id
+2020-01-18 16:22:30.904 [TestNG-PoolService-2] INFO  com.APITestRunner - START Create employee
+2020-01-18 16:22:33.640 [TestNG-PoolService-3] INFO  com.APITestRunner - PASS  Remove employee
+2020-01-18 16:22:34.129 [TestNG-PoolService-1] INFO  com.APITestRunner - PASS  Get employees by specific id
+2020-01-18 16:22:34.133 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get employees by specific id
+2020-01-18 16:22:34.596 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Create employee
