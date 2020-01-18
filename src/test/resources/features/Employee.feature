@@ -1,4 +1,4 @@
-Feature: Employess info
+Feature: Employees info
 
   @api
   Scenario Outline: Get employees by specific id
