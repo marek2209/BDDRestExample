@@ -1,0 +1,4 @@
+2020-01-18 10:20:34.655 [TestNG-PoolService-1] INFO  com.APITestRunner - START Get all bike points contains River Street , Clerkenwell
+2020-01-18 10:20:34.655 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get all bike points contains Evesham Street, Avondale
+2020-01-18 10:20:38.086 [TestNG-PoolService-1] INFO  com.APITestRunner - PASS  Get all bike points contains River Street , Clerkenwell
+2020-01-18 10:20:38.086 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get all bike points contains Evesham Street, Avondale
