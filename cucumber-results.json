@@ -3,8 +3,8 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-01-18T09:20:35.165Z",
-        "line": 14,
+        "start_timestamp": "2020-01-18T11:44:24.890Z",
+        "line": 15,
         "name": "Get all bike points contains Evesham Street, Avondale",
         "description": "",
         "id": "fetching-bike-points;get-all-bike-points-contains-\u003cname\u003e;;2",
@@ -13,32 +13,32 @@
         "steps": [
           {
             "result": {
-              "duration": 2847147292,
+              "duration": 7070526140,
               "status": "passed"
             },
             "line": 9,
-            "name": "I request all bike points",
+            "name": "Test",
             "match": {
-              "location": "TflStepDefs.i_request_all_bike_points()"
+              "location": "TflStepDefs.test()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 54369357,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 10,
-            "name": "\"Evesham Street, Avondale\" will be in the result",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Evesham Street, Avondale",
-                  "offset": 1
-                }
-              ],
-              "location": "TflStepDefs.will_be_in_the_result(String)"
+            "name": "I request all bike points",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 11,
+            "name": "\"Evesham Street, Avondale\" will be in the result",
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -49,57 +49,5 @@
         ]
       },
       {
-        "start_timestamp": "2020-01-18T09:20:35.165Z",
-        "line": 15,
-        "name": "Get all bike points contains River Street , Clerkenwell",
-        "description": "",
-        "id": "fetching-bike-points;get-all-bike-points-contains-\u003cname\u003e;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2847144136,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I request all bike points",
-            "match": {
-              "location": "TflStepDefs.i_request_all_bike_points()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 54366654,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "\"River Street , Clerkenwell\" will be in the result",
-            "match": {
-              "arguments": [
-                {
-                  "val": "River Street , Clerkenwell",
-                  "offset": 1
-                }
-              ],
-              "location": "TflStepDefs.will_be_in_the_result(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@api"
-          }
-        ]
-      }
-    ],
-    "name": "Fetching bike points",
-    "description": "  In order to find some information\n  As a searcher\n  I want to be able to search and have relevant information returned",
-    "id": "fetching-bike-points",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Bikes.feature",
-    "tags": []
-  }
-]
+        "start_timestamp": "2020-01-18T11:44:24.890Z",
+        "line": 16

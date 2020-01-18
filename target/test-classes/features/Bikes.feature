@@ -6,6 +6,7 @@ Feature: Fetching bike points
 
   @api
   Scenario Outline: Get all bike points contains <name>
+    When Test
     When I request all bike points
     Then "<name>" will be in the result
 

@@ -1,30 +1,28 @@
 package com.tfl.glue;
 
-import com.tfl.api.dto.BikePoints;
-import com.tfl.api.service.BikePointService;
+import com.tfl.api.service.EmployeeService;
 import cucumber.api.PendingException;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import io.qameta.allure.Step;
+import io.restassured.path.json.JsonPath;
 
 import static com.google.common.truth.Truth.assertWithMessage;
 
 public class TflStepDefs {
 
-    private final BikePointService bikePoints = new BikePointService();
-    private BikePoints points;
+    private String employee;
 
-    @Step
-    @When("^I request all bike points$")
-    public void i_request_all_bike_points() {
-        points = bikePoints.getAllBikePoints();
+    @When("^User request user by id <id>$")
+    public void userRequestUserByIdId() throws Throwable {
+        EmployeeService service = new EmployeeService();
+        employee = service.getEmployeeById(2);
     }
 
-    @Step
-    @Then("^\"([^\"]*)\" will be in the result$")
-    public void will_be_in_the_result(String name) {
-        assertWithMessage("Expecting " + name + " to be in the search results")
-                .that(points.getAllNames()).contains(name);
+    @Then("^It should be equal to <name> and <last_name>$")
+    public void itShouldBeEqualToNameAndLast_name() throws Throwable {
+        JsonPath jp = new JsonPath(employee);
+        jp.setRootPath("data");
+        
     }
-
 }

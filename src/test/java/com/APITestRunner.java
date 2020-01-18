@@ -2,6 +2,7 @@ package com;
 
 import gherkin.events.PickleEvent;
 import io.cucumber.testng.*;
+import io.restassured.RestAssured;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITest;
@@ -13,12 +14,11 @@ import java.lang.reflect.Method;
 @CucumberOptions(
         strict = true,
         features = {"src/test/resources/features/"},
-        tags = {"not @ignore and @api"},
+        tags = {"@api"},
         plugin = {
                 "pretty", // pretty console logging
                 "json:cucumber-results.json" // json results file
         },
-        // NB: change these to match your glue packages.
         glue = {"com.tfl.glue"})
 public class APITestRunner implements ITest {
 
