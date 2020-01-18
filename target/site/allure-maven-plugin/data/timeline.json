@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "macbook-pro-marek.home",
+    "children" : [ {
+      "name" : "9073@macbook-pro-marek.home.TestNG-PoolService-0(18)",
+      "children" : [ {
+        "name" : "scenario",
+        "uid" : "5acb29be1af5e9aa",
+        "parentUid" : "1f17c841bc75f864bf01968cd12c9ff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579361317188,
+          "stop" : 1579361317473,
+          "duration" : 285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Get employees by specific id\"", "\"Employess info\"" ]
+      }, {
+        "name" : "scenario",
+        "uid" : "33d5dcf71dab6050",
+        "parentUid" : "1f17c841bc75f864bf01968cd12c9ff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579361318179,
+          "stop" : 1579361318464,
+          "duration" : 285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Remove employee\"", "\"Employess info\"" ]
+      }, {
+        "name" : "scenario",
+        "uid" : "e7b00f69b57d8d5d",
+        "parentUid" : "1f17c841bc75f864bf01968cd12c9ff7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579361317477,
+          "stop" : 1579361318168,
+          "duration" : 691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Create employee\"", "\"Employess info\"" ]
+      }, {
+        "name" : "scenario",
+        "uid" : "c6dea17b680782e7",
+        "parentUid" : "1f17c841bc75f864bf01968cd12c9ff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579361314443,
+          "stop" : 1579361317176,
+          "duration" : 2733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Get employees by specific id\"", "\"Employess info\"" ]
+      } ],
+      "uid" : "1f17c841bc75f864bf01968cd12c9ff7"
+    } ],
+    "uid" : "0f9afac1eded45d39992fb8c56829312"
+  } ]
+}

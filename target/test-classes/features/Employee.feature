@@ -20,4 +20,3 @@ Feature: Employess info
   Scenario: Remove employee
     When User try to remove user by id "2"
     Then Response should return "204" status code
-

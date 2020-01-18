@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jan 18 16:28:37 CET 2020","Sat Jan 18 16:28:37 CET 2020","285","Surefire suite","Surefire test","com.APITestRunner","com.APITestRunner","scenario","scenario",""
+"passed","Sat Jan 18 16:28:38 CET 2020","Sat Jan 18 16:28:38 CET 2020","285","Surefire suite","Surefire test","com.APITestRunner","com.APITestRunner","scenario","scenario",""
+"failed","Sat Jan 18 16:28:37 CET 2020","Sat Jan 18 16:28:38 CET 2020","691","Surefire suite","Surefire test","com.APITestRunner","com.APITestRunner","scenario","scenario",""

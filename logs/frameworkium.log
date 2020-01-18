@@ -264,3 +264,11 @@
 2020-01-18 16:22:34.129 [TestNG-PoolService-1] INFO  com.APITestRunner - PASS  Get employees by specific id
 2020-01-18 16:22:34.133 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get employees by specific id
 2020-01-18 16:22:34.596 [TestNG-PoolService-2] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 16:28:34.314 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get employees by specific id
+2020-01-18 16:28:37.184 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get employees by specific id
+2020-01-18 16:28:37.186 [TestNG-PoolService-0] INFO  com.APITestRunner - START Get employees by specific id
+2020-01-18 16:28:37.474 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Get employees by specific id
+2020-01-18 16:28:37.476 [TestNG-PoolService-0] INFO  com.APITestRunner - START Create employee
+2020-01-18 16:28:38.175 [TestNG-PoolService-0] ERROR com.APITestRunner - FAIL  Create employee
+2020-01-18 16:28:38.177 [TestNG-PoolService-0] INFO  com.APITestRunner - START Remove employee
+2020-01-18 16:28:38.465 [TestNG-PoolService-0] INFO  com.APITestRunner - PASS  Remove employee

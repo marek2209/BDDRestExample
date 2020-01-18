@@ -1,0 +1,130 @@
+{
+  "uid" : "c6dea17b680782e7",
+  "name" : "scenario",
+  "fullName" : "com.APITestRunner.scenario",
+  "historyId" : "992376a023dc38356d72fd19bd99b1eb",
+  "time" : {
+    "start" : 1579361314443,
+    "stop" : 1579361317176,
+    "duration" : 2733
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setTestName",
+    "time" : {
+      "start" : 1579361314307,
+      "stop" : 1579361314318,
+      "duration" : 11
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1579361314105,
+      "stop" : 1579361314231,
+      "duration" : 126
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1579361317184,
+      "stop" : 1579361317185,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1579361318467,
+      "stop" : 1579361318511,
+      "duration" : 44
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.APITestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.APITestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "scenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.APITestRunner"
+  }, {
+    "name" : "host",
+    "value" : "macbook-pro-marek.home"
+  }, {
+    "name" : "thread",
+    "value" : "9073@macbook-pro-marek.home.TestNG-PoolService-0(18)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Get employees by specific id\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Employess info\""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6dea17b680782e7.json",
+  "parameterValues" : [ "\"Get employees by specific id\"", "\"Employess info\"" ]
+}

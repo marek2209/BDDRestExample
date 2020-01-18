@@ -7,14 +7,6 @@
   <artifactId>Frameworkium-BDD</artifactId>
   <version>3.0.0-BDD-SNAPSHOT</version>
 
-  <issueManagement>
-    <system>github issues</system>
-    <url>https://github.com/Frameworkium/frameworkium-bdd/issues</url>
-  </issueManagement>
-  <ciManagement>
-    <url>https://travis-ci.org/Frameworkium/frameworkium-bdd</url>
-  </ciManagement>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

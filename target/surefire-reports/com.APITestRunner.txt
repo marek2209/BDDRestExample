@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.APITestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.93 s <<< FAILURE! - in com.APITestRunner
+Create employee(com.APITestRunner)  Time elapsed: 0.698 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+
