@@ -2,7 +2,6 @@ package com;
 
 import gherkin.events.PickleEvent;
 import io.cucumber.testng.*;
-import io.restassured.RestAssured;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITest;
@@ -19,7 +18,7 @@ import java.lang.reflect.Method;
                 "pretty", // pretty console logging
                 "json:cucumber-results.json" // json results file
         },
-        glue = {"com.tfl.glue"})
+        glue = {"com.employeeApi.glue"})
 public class APITestRunner implements ITest {
 
     private static final Logger logger = LogManager.getLogger();

@@ -1,11 +1,10 @@
-package com.tfl.api.service;
+package com.employeeApi.api.service;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 
 import static io.restassured.RestAssured.given;
-
 
 public class EmployeeService {
 

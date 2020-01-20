@@ -1,7 +1,6 @@
-package com.tfl.glue;
+package com.employeeApi.glue;
 
-import com.tfl.api.service.EmployeeService;
-import cucumber.api.PendingException;
+import com.employeeApi.api.service.EmployeeService;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.path.json.JsonPath;
@@ -15,7 +14,6 @@ public class EmployeeStepDefs {
     private JsonPath employee;
     private Integer newEmployeeId;
     private Integer statusCode;
-
 
     @When("^User request user by id \"([^\"]*)\"$")
     public void userRequestUserById(Integer id) {
@@ -37,7 +35,6 @@ public class EmployeeStepDefs {
         assertThat(job).isEqualTo(employee.get("last_name"));
     }
 
-
     @When("^User provides employee data \"([^\"]*)\" \"([^\"]*)\"$")
     public void userProvidesEmployeeData(String name, String job) {
         String requestBody = "{\n" +
@@ -47,7 +44,6 @@ public class EmployeeStepDefs {
         newEmployeeId = Integer.parseInt(service.createEmployee(requestBody).get("id"));
     }
 
-
     @When("^User try to remove user by id \"([^\"]*)\"$")
     public void userTryToRemoveUserById(Integer id) {
         statusCode = service.deleteEmployeeById(id);
@@ -56,6 +52,5 @@ public class EmployeeStepDefs {
     @Then("^Response should return \"([^\"]*)\" status code$")
     public void responseShouldReturnStatusCode(Integer expectedStatusCode){
         assertThat(statusCode).isEqualTo(expectedStatusCode);
-
     }
 }
